@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+<rect width="640" height="360" fill="#f5f5f5"/>
+<rect x="16" y="16" width="608" height="40" fill="none" stroke="#161a17" stroke-opacity=".5"/>
+<text x="30" y="42" font-family="IBM Plex Mono, monospace" font-size="15" fill="#161a17">MCPGATE · ONE FRONT DOOR</text>
+<g font-family="IBM Plex Mono, monospace" fill="#161a17" stroke="#161a17" stroke-opacity=".6" stroke-width="1.2">
+<rect x="24" y="84" width="150" height="56" fill="#fff"/>
+<rect x="24" y="164" width="150" height="56" fill="#fff"/>
+<rect x="232" y="72" width="190" height="180" fill="#fff" stroke="#28c840" stroke-opacity="1" stroke-width="2.5"/>
+<rect x="466" y="84" width="150" height="56" fill="#fff"/>
+<rect x="466" y="164" width="150" height="56" fill="#fff"/>
+<line x1="174" y1="112" x2="230" y2="150"/>
+<line x1="174" y1="192" x2="230" y2="164"/>
+<line x1="422" y1="150" x2="464" y2="112"/>
+<line x1="422" y1="164" x2="464" y2="192"/>
+<rect x="24" y="290" width="592" height="46" fill="#fff"/>
+</g>
+<g font-family="IBM Plex Mono, monospace" fill="#161a17" font-size="15">
+<text x="40" y="118">agent analyst</text>
+<text x="40" y="198">agent ops</text>
+<text x="250" y="102" font-size="16">gateway</text>
+<text x="250" y="132" font-size="13">bearer token check</text>
+<text x="250" y="154" font-size="13">tool access, deny wins</text>
+<text x="250" y="176" font-size="13">rate limits</text>
+<text x="250" y="198" font-size="13">tool pin check</text>
+<text x="250" y="226" font-size="13" fill-opacity=".7">one server for clients</text>
+<text x="482" y="118">notes server</text>
+<text x="482" y="138" font-size="12" fill-opacity=".7">local stdio</text>
+<text x="482" y="198">inventory server</text>
+<text x="482" y="218" font-size="12" fill-opacity=".7">HTTP, own token</text>
+<text x="40" y="318" font-size="15">audit log · every decision recorded</text>
+</g>
+</svg>

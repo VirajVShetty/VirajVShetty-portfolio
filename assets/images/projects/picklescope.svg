@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+<rect width="640" height="360" fill="#f5f5f5"/>
+<rect x="16" y="16" width="608" height="40" fill="none" stroke="#161a17" stroke-opacity=".5"/>
+<text x="30" y="42" font-family="IBM Plex Mono, monospace" font-size="15" fill="#161a17">PICKLESCOPE · INSPECT BEFORE LOADING</text>
+<g font-family="IBM Plex Mono, monospace" font-size="15" fill="#161a17" stroke="#161a17" stroke-opacity=".6">
+<rect x="40" y="76" width="150" height="34" fill="#fff"/><text x="54" y="98">pickle</text>
+<rect x="40" y="120" width="150" height="34" fill="#fff"/><text x="54" y="142">PyTorch</text>
+<rect x="40" y="164" width="150" height="34" fill="#fff"/><text x="54" y="186">Keras</text>
+<rect x="40" y="208" width="150" height="34" fill="#fff"/><text x="54" y="230">safetensors</text>
+<rect x="40" y="252" width="150" height="34" fill="#fff"/><text x="54" y="274">GGUF</text>
+<rect x="40" y="296" width="150" height="34" fill="#fff"/><text x="54" y="318">ONNX</text>
+</g>
+<rect x="262" y="70" width="6" height="262" fill="#28c840"/>
+<text x="236" y="352" font-family="IBM Plex Mono, monospace" font-size="13" fill="#161a17">scanner</text>
+<g font-family="IBM Plex Mono, monospace" fill="#161a17">
+<rect x="340" y="76" width="276" height="92" fill="#fff" stroke="#161a17" stroke-opacity=".6"/>
+<text x="356" y="106" font-size="16">allow-list policy</text>
+<text x="356" y="136" font-size="13" fill-opacity=".7">every import checked, nothing run</text>
+<rect x="340" y="196" width="276" height="62" fill="none" stroke="#28c840" stroke-width="2"/>
+<text x="356" y="222" font-size="16">never deserialized</text>
+<text x="356" y="244" font-size="13" fill-opacity=".7">files read as bytes, not loaded</text>
+<rect x="340" y="284" width="82" height="40" fill="#fff" stroke="#161a17" stroke-opacity=".6"/><text x="356" y="309" font-size="14">text</text>
+<rect x="432" y="284" width="82" height="40" fill="#fff" stroke="#161a17" stroke-opacity=".6"/><text x="448" y="309" font-size="14">JSON</text>
+<rect x="524" y="284" width="92" height="40" fill="#fff" stroke="#161a17" stroke-opacity=".6"/><text x="540" y="309" font-size="14">SARIF</text>
+</g>
+</svg>

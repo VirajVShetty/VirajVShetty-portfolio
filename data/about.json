@@ -1,0 +1,34 @@
+{
+  "paragraphs": [
+    "I work at the point where analytics, reporting and data engineering meet. At Apex Informatics I built a Power BI dashboard that tracks 20+ operational KPIs and consolidates data from 5+ internal sources with SQL and ETL workflows.",
+    "At Elevate Credit I owned the lifecycle of 10-12 active models. I automated their stability and performance tracking (PSI, AUC, KS, lift) in a Snowflake-to-Power BI pipeline, which cut execution time by 95%.",
+    "I also designed charge-off, roll-rate and re-parameterization views used for pre-rollout lift analysis, and I built a fact-and-dimension reporting database from scratch.",
+    "Outside of work I write small, tested Python projects on evaluation and statistical rigor, such as leakage-aware cross-validation and fairness slice auditing."
+  ],
+  "highlights": [
+    {
+      "label": "Focus",
+      "value": "Data analytics & credit risk"
+    },
+    {
+      "label": "Current role",
+      "value": "Operational Analyst, Apex Informatics"
+    },
+    {
+      "label": "Previously",
+      "value": "Data Scientist II, Elevate Credit"
+    },
+    {
+      "label": "Base",
+      "value": "Dallas, TX"
+    },
+    {
+      "label": "Degree",
+      "value": "MS, IT Management (Business Analytics)"
+    },
+    {
+      "label": "Core tools",
+      "value": "SQL, Power BI, Python, Snowflake"
+    }
+  ]
+}

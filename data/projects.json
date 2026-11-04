@@ -1,0 +1,232 @@
+{
+  "projects": [
+    {
+      "name": "QueryCraft",
+      "category": "Text-to-SQL workbench",
+      "description": "A local-first natural-language-to-SQL workbench. It generates schema-grounded SQL, lets you review and edit it, and runs only validated read-only SQLite queries. It has a schema explorer, CSV export and a no-key demo mode.",
+      "highlights": [
+        "SQLGlot validation pipeline with user-approved, read-only execution, query deadlines and row limits",
+        "Verified through 92 AI automated tests and browser regression checks",
+        "Five no-key demo questions on a bundled synthetic ecommerce database"
+      ],
+      "technologies": [
+        "Python",
+        "Flask",
+        "SQLite",
+        "SQLGlot",
+        "JavaScript"
+      ],
+      "links": {
+        "source": "https://github.com/VirajVShetty/QueryCraft"
+      },
+      "image": "assets/images/projects/querycraft.svg",
+      "featured": true,
+      "hero": {
+        "src": "assets/images/projects/querycraft-hero.jpg",
+        "alt": "QueryCraft — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "Brazilian Olist E-Commerce Reporting",
+      "category": "BI reporting",
+      "description": "A Power BI report on the Brazilian Olist e-commerce dataset with revenue, map and customer analytics views, built to showcase Power BI skills. It uses a custom theme matching the colors of the Brazilian flag.",
+      "highlights": [
+        "Measures for customer counts, total revenue, total orders, average order value and average orders per customer",
+        "Revenue, map and customer analytics views"
+      ],
+      "technologies": [
+        "Power BI",
+        "SQL",
+        "DAX"
+      ],
+      "links": {
+        "source": "https://github.com/VirajVShetty/BrazilianOlistReporting"
+      },
+      "image": "assets/images/projects/brazilian-olist-reporting.svg",
+      "featured": true,
+      "hero": {
+        "src": "assets/images/projects/brazilian-olist-reporting-hero.jpg",
+        "alt": "Brazilian Olist E-Commerce Reporting — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "US Consumer Credit Analysis",
+      "category": "Financial data analysis",
+      "description": "An analysis of the Federal Reserve G.19 Consumer Credit release (Jan 1943 to Jun 2026) comparing revolving and nonrevolving credit. It ships as a notebook with 7 charts and written findings, and as an interactive Streamlit dashboard.",
+      "highlights": [
+        "Year-over-year growth of the two series correlates at only 0.16",
+        "Revolving share fell from 41.2% (Apr 1998) to 22.5% (Jun 2021)",
+        "Student loans grew 286% since 2006 and are now 49% of nonrevolving credit"
+      ],
+      "technologies": [
+        "Python",
+        "Jupyter",
+        "Streamlit"
+      ],
+      "links": {
+        "source": "https://github.com/VirajVShetty/FinancialDataAnalytics",
+        "demo": "https://financial-data-analytics-viraj.streamlit.app/"
+      },
+      "image": "assets/images/projects/financial-data-analytics.svg",
+      "featured": true,
+      "hero": {
+        "src": "assets/images/projects/financial-data-analytics-hero.jpg",
+        "alt": "US Consumer Credit Analysis — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "sliceguard",
+      "category": "Fairness auditing",
+      "description": "A fairness slice auditor that puts Wilson and Newcombe intervals on every slice, applies Benjamini-Hochberg correction across all slices tested, and reports a minimum detectable effect. Tiny slices stop producing false alarms, and underpowered ones are marked INDETERMINATE.",
+      "highlights": [
+        "Demo audits 6,000 synthetic underwriting-model evaluations with two planted 9-point disparities",
+        "Ranks by the lower bound of the gap interval instead of the raw point estimate",
+        "Standard library only, with calibration tests for false discovery rate and power"
+      ],
+      "technologies": [
+        "Python",
+        "Statistics",
+        "Benjamini-Hochberg",
+        "Wilson intervals"
+      ],
+      "links": {
+        "source": "https://github.com/VirajVShetty/sliceguard"
+      },
+      "image": "assets/images/projects/sliceguard.svg",
+      "hero": {
+        "src": "assets/images/projects/sliceguard-hero.jpg",
+        "alt": "sliceguard — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "purgedcv",
+      "category": "Time-series validation",
+      "description": "Purged, embargoed walk-forward cross-validation for time series, plus a harness that measures how much of a backtest's reported skill is leakage. It scores one model under four protocols on synthetic data where the true skill is known, including a zero-signal control.",
+      "highlights": [
+        "On a zero-signal series, naive k-fold overstated accuracy by 8.35 percentage points",
+        "The label horizon is mandatory, so overlap leakage cannot be reintroduced by default",
+        "28 tests; pure standard-library Python"
+      ],
+      "technologies": [
+        "Python",
+        "Cross-validation",
+        "Time series",
+        "Statistics"
+      ],
+      "links": {
+        "source": "https://github.com/VirajVShetty/purgedcv"
+      },
+      "image": "assets/images/projects/purgedcv.svg",
+      "hero": {
+        "src": "assets/images/projects/purgedcv-hero.jpg",
+        "alt": "purgedcv — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "fieldvoice",
+      "category": "Evaluation metrics",
+      "description": "An offline speech-to-structured-report pipeline evaluated on entity error rate instead of word error rate, because only part numbers, fault codes and quantities matter. It adds catalogue-constrained decoding that snaps identifiers or routes them to a human. Recognition is simulated.",
+      "highlights": [
+        "In the demo, WER prefers the system that fumbles every field (0.192 vs 0.231); entity error rate prefers the other (0.833 vs 0.000)",
+        "Entity error rate reported overall and per entity type",
+        "80 tests; pure Python standard library"
+      ],
+      "technologies": [
+        "Python",
+        "Entity extraction",
+        "WER",
+        "Metrics design"
+      ],
+      "links": {
+        "source": "https://github.com/VirajVShetty/fieldvoice"
+      },
+      "image": "assets/images/projects/fieldvoice.svg",
+      "hero": {
+        "src": "assets/images/projects/fieldvoice-hero.jpg",
+        "alt": "fieldvoice — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "quantfrontier",
+      "category": "Model evaluation",
+      "description": "A quantisation quality/latency frontier measured per downstream task and by output divergence instead of perplexity. It uses real integer quantisation on a small MLP and a seeded simulated backend, and finds the bit width where task quality falls off a cliff.",
+      "highlights": [
+        "Per-task Pareto frontiers over quality, latency and memory",
+        "KL divergence against full precision as an early-warning signal",
+        "29 tests; no LLM or model weights required, and results are not real-LLM benchmarks"
+      ],
+      "technologies": [
+        "Python",
+        "Quantisation",
+        "Pareto analysis",
+        "KL divergence"
+      ],
+      "links": {
+        "source": "https://github.com/VirajVShetty/quantfrontier"
+      },
+      "image": "assets/images/projects/quantfrontier.svg",
+      "hero": {
+        "src": "assets/images/projects/quantfrontier-hero.jpg",
+        "alt": "quantfrontier — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "tamperlog",
+      "category": "Data integrity",
+      "description": "A hash-chained audit log with periodic Merkle checkpoints whose roots are held in a separate witness store. It detects re-chained truncation and edits that plain hash chaining accepts, and reports the exact sequence range affected.",
+      "highlights": [
+        "On a 20,000-entry log with a checkpoint every 1,000 entries, chain-only checks missed 3 of 7 tamper classes; with checkpoints all 7 were detected",
+        "Inclusion proofs for any entry, with domain-separated leaf and node hashes",
+        "Standard library only, no dependencies"
+      ],
+      "technologies": [
+        "Python",
+        "Merkle trees",
+        "SHA-256",
+        "Audit logging"
+      ],
+      "links": {
+        "source": "https://github.com/VirajVShetty/tamperlog"
+      },
+      "image": "assets/images/projects/tamperlog.svg",
+      "hero": {
+        "src": "assets/images/projects/tamperlog-hero.jpg",
+        "alt": "tamperlog — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "yaraci",
+      "category": "Quality testing",
+      "description": "A CI harness for YARA rule quality. It lints rules, proves each rule fires on its own fixtures, scans goodware for false positives, profiles scan cost and diffs two rule-set versions by what they match, then returns one exit code.",
+      "highlights": [
+        "35 lint check codes plus per-rule scorecards graded from A to F",
+        "Reports as text, Markdown, JSON, JUnit XML and SARIF 2.1.0",
+        "259 tests; runs on both the YARA-X and libyara engines"
+      ],
+      "technologies": [
+        "Python",
+        "YARA",
+        "YARA-X",
+        "SARIF",
+        "JUnit"
+      ],
+      "links": {
+        "source": "https://github.com/VirajVShetty/yaraci"
+      },
+      "image": "assets/images/projects/yaraci.svg",
+      "hero": {
+        "src": "assets/images/projects/yaraci-hero.jpg",
+        "alt": "yaraci — Concept render",
+        "caption": "Concept render"
+      }
+    }
+  ]
+}

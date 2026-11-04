@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "institution": "The University of Texas at Dallas",
+      "degree": "MS",
+      "field": "Information Technology Management (Business Analytics Specialization)",
+      "start": "August 2021",
+      "end": "May 2023",
+      "location": "Dallas, TX",
+      "details": [
+        "Relevant coursework: Machine Learning, Advanced Statistics for Data Science, Database Foundations, Big Data"
+      ]
+    },
+    {
+      "institution": "The University of Mumbai",
+      "degree": "BE",
+      "field": "Computer Engineering",
+      "start": "June 2016",
+      "end": "November 2020",
+      "location": "Mumbai, India",
+      "details": [
+        "Relevant coursework: Analysis of Algorithms, Cloud Computing, Natural Language Processing, Data Warehousing"
+      ]
+    }
+  ]
+}

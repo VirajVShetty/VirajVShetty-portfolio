@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+<rect width="640" height="360" fill="#f5f5f5"/>
+<rect x="16" y="16" width="608" height="40" fill="none" stroke="#161a17" stroke-opacity=".5"/>
+<text x="30" y="42" font-family="IBM Plex Mono, monospace" font-size="15" fill="#161a17">RECEIPTLENS · ON DEVICE END TO END</text>
+<path d="M70 80 H220 V296 L208 286 L196 296 L184 286 L172 296 L160 286 L148 296 L136 286 L124 296 L112 286 L100 296 L88 286 L70 296 Z" fill="#fff" stroke="#161a17" stroke-opacity=".6" stroke-width="1.2"/>
+<g fill="#161a17" fill-opacity=".18">
+<rect x="92" y="110" width="106" height="8"/><rect x="92" y="130" width="80" height="8"/><rect x="92" y="150" width="96" height="8"/><rect x="92" y="170" width="70" height="8"/><rect x="92" y="190" width="100" height="8"/><rect x="92" y="210" width="60" height="8"/>
+</g>
+<rect x="92" y="240" width="106" height="12" fill="#161a17" fill-opacity=".6"/>
+<g font-family="IBM Plex Mono, monospace" fill="#161a17" stroke="#161a17" stroke-opacity=".6" stroke-width="1.2">
+<rect x="268" y="80" width="170" height="52" fill="#fff"/>
+<rect x="268" y="156" width="170" height="52" fill="#fff"/>
+<rect x="268" y="232" width="170" height="52" fill="#fff"/>
+<rect x="496" y="232" width="120" height="52" fill="#fff" stroke="#28c840" stroke-opacity="1" stroke-width="2.5"/>
+<line x1="220" y1="170" x2="266" y2="170"/>
+<line x1="353" y1="132" x2="353" y2="154"/>
+<line x1="353" y1="208" x2="353" y2="230"/>
+<line x1="438" y1="258" x2="494" y2="258"/>
+</g>
+<g font-family="IBM Plex Mono, monospace" fill="#161a17" font-size="15">
+<text x="284" y="102">on-device OCR</text>
+<text x="284" y="178">line-item classifier</text>
+<text x="284" y="254">encrypted local store</text>
+<text x="512" y="254" font-size="14">CSV</text>
+</g>
+<text x="40" y="330" font-family="IBM Plex Mono, monospace" font-size="14" fill="#161a17" fill-opacity=".75">no cloud upload in the core flow</text>
+</svg>

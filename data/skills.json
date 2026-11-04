@@ -1,0 +1,69 @@
+{
+  "groups": [
+    {
+      "name": "Programming & Data",
+      "items": [
+        "SQL",
+        "Python",
+        "R",
+        "PostgreSQL",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Git",
+        "Databricks",
+        "Linux",
+        "VSCode"
+      ]
+    },
+    {
+      "name": "BI & Data Platforms",
+      "items": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "Snowflake",
+        "Tableau",
+        "Microsoft Excel",
+        "VBA",
+        "Index-Match"
+      ]
+    },
+    {
+      "name": "Data Science & ML",
+      "items": [
+        "Scikit-learn",
+        "XGBoost",
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "LangGraph"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "items": [
+        "Docker",
+        "GCP BigQuery",
+        "Azure",
+        "AWS S3",
+        "AWS Redshift",
+        "AWS Athena",
+        "AWS Glue"
+      ]
+    },
+    {
+      "name": "AI/LLM & GTM",
+      "items": [
+        "Claude",
+        "GitHub Copilot",
+        "ChatGPT",
+        "Perplexity",
+        "Databricks Genie AI",
+        "Clay",
+        "HubSpot",
+        "n8n"
+      ]
+    }
+  ]
+}

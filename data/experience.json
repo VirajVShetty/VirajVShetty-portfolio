@@ -1,0 +1,110 @@
+{
+  "roles": [
+    {
+      "company": "Apex Informatics",
+      "title": "Operational Analyst",
+      "start": "September 2026",
+      "end": "Present",
+      "location": "Dallas, TX",
+      "description": "Operational analytics and reporting, plus GTM and revenue operations automation with Clay, HubSpot CRM and n8n for lead enrichment, prospect segmentation and CRM synchronization.",
+      "highlights": [
+        "Developed a centralized Power BI dashboard tracking 20+ operational KPIs across project delivery, resource utilization, client performance and financial operations, reducing reporting effort by 35%.",
+        "Streamlined SQL and ETL workflows to consolidate project, timesheet, client and financial data from 5+ internal sources into standardized operational reporting.",
+        "Implemented an AI-powered text-to-SQL solution so stakeholders can retrieve operational insights in natural language, with automated regression testing through Hermes to validate query accuracy.",
+        "Analyzed utilization, capacity, SLA performance and budget variance across 15+ client engagements using Power BI, DAX and Power Query.",
+        "Automated recurring reporting and data quality validation with Python, SQL, Power Query and Excel, reducing reporting turnaround by 4 hours."
+      ],
+      "technologies": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "SQL",
+        "ETL",
+        "Python",
+        "Excel",
+        "Hermes",
+        "Clay",
+        "HubSpot CRM",
+        "n8n"
+      ],
+      "logo": "assets/images/logos/apex-informatics.svg"
+    },
+    {
+      "company": "Elevate Credit",
+      "logo": "assets/images/logos/elevate-credit.svg",
+      "title": "Data Scientist II",
+      "start": "August 2023",
+      "end": "July 2026",
+      "location": "Dallas, TX",
+      "description": "Owned the inventory lifecycle of 10-12 active models, with status updates to internal stakeholders and bank partners within 24 hours of any model change. Coordinated third-party validation against SR-26-2 and OCC-11-12 and facilitated fair lending reviews.",
+      "highlights": [
+        "Automated variable stability (PSI) and performance (AUC, KS, lift) tracking for 10 active models via parameterized Jupyter notebooks and a Snowflake-to-Power BI pipeline, reducing execution time by 95%.",
+        "Designed ad-hoc views for charge-off benchmarking, roll-rate analysis and re-parameterization comparisons, driving pre-rollout lift analysis that reduced the delinquent population by 60%.",
+        "Enhanced an automated lookup query that retrieves underwriting data by application ID on API-flagged fund/no-fund conflicts, using Claude for query refinement and cutting manual investigation time by 85%.",
+        "Built a fact-and-dimension database architecture from scratch to replace a retiring Tableau/SaaS reporting system, with a scalable schema for current and future credit risk and response models.",
+        "Standardized the model development lifecycle, replacing email-based reviews with structured leadership alignment meetings and reducing turnaround time by 75%."
+      ],
+      "technologies": [
+        "Snowflake",
+        "Power BI",
+        "SQL",
+        "Jupyter",
+        "Tableau",
+        "Claude",
+        "Copilot"
+      ]
+    },
+    {
+      "company": "Loopback Analytics",
+      "logo": "assets/images/logos/loopback-analytics.svg",
+      "title": "Data Analyst Intern",
+      "start": "June 2022",
+      "end": "December 2022",
+      "location": "Dallas, TX",
+      "description": "Analytics and data engineering internship on healthcare data, covering Snowflake, Power BI, PySpark and Databricks.",
+      "highlights": [
+        "Tracked client feasibility requirements in JIRA and wrote Snowflake stored procedures that optimized execution time and space by 25%.",
+        "Optimized the Power BI data structure to reduce report load time by 30%.",
+        "Identified 5 key business metrics with a cross-functional team and ran hypothesis testing on patient data, improving treatment success rate by 20%.",
+        "Used PySpark to manage and update NLP pipelines for EHR data, and Databricks and R for cleaning and ETL on Census API socio-economic data, reducing null values by 30%."
+      ],
+      "technologies": [
+        "Snowflake",
+        "Power BI",
+        "PySpark",
+        "Databricks",
+        "R",
+        "JIRA",
+        "NLP",
+        "ETL",
+        "Census API"
+      ]
+    },
+    {
+      "company": "mUni Campus",
+      "title": "Data Analyst",
+      "start": "December 2019",
+      "end": "May 2021",
+      "location": "Mumbai, IN",
+      "description": "Data integration, root cause analysis and predictive modeling on academic performance and lecture data.",
+      "highlights": [
+        "Integrated data from multiple sources using Apache Airflow and AWS S3 and redesigned API services for greater scalability, reducing manual effort by 50%.",
+        "Implemented Random Forest and KNN models for student performance prediction, achieving an average precision of 92% and recall of 89%.",
+        "Performed ETL with pandas and optimized SQL scripts, increasing data access speed by 67%.",
+        "Ran root cause analysis with regression and correlation analysis to identify factors affecting test scores.",
+        "Built a Python YouTube scraper that collected 10K links and titles for a specific keyword."
+      ],
+      "technologies": [
+        "Python",
+        "pandas",
+        "SQL",
+        "Apache Airflow",
+        "AWS S3",
+        "Random Forest",
+        "KNN",
+        "ETL"
+      ],
+      "logo": "assets/images/logos/muni-campus.svg"
+    }
+  ]
+}

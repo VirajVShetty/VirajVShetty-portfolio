@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+<rect width="640" height="360" fill="#f5f5f5"/>
+<rect x="16" y="16" width="608" height="40" fill="none" stroke="#161a17" stroke-opacity=".5"/>
+<text x="30" y="42" font-family="IBM Plex Mono, monospace" font-size="15" fill="#161a17">AGENTGUARD · TOOL CALL GATE</text>
+<g font-family="IBM Plex Mono, monospace" fill="#161a17" stroke="#161a17" stroke-opacity=".6" stroke-width="1.2">
+<rect x="24" y="84" width="152" height="66" fill="#fff"/>
+<rect x="244" y="84" width="152" height="66" fill="#fff"/>
+<rect x="464" y="84" width="152" height="66" fill="#fff" stroke="#28c840" stroke-opacity="1" stroke-width="2.5"/>
+<line x1="176" y1="117" x2="242" y2="117"/>
+<line x1="396" y1="117" x2="462" y2="117"/>
+<line x1="540" y1="150" x2="540" y2="212"/>
+<rect x="244" y="212" width="152" height="66" fill="#fff"/>
+<rect x="24" y="212" width="152" height="66" fill="#fff"/>
+<line x1="464" y1="245" x2="396" y2="245"/>
+<line x1="244" y1="245" x2="176" y2="245"/>
+</g>
+<g font-family="IBM Plex Mono, monospace" fill="#161a17" font-size="15">
+<text x="40" y="112">user prompt</text><text x="40" y="134" font-size="12" fill-opacity=".7">trusted input</text>
+<text x="260" y="112">agent loop</text><text x="260" y="134" font-size="12" fill-opacity=".7">proposes tool calls</text>
+<text x="480" y="112">policy gate</text><text x="480" y="134" font-size="12" fill-opacity=".7">default deny</text>
+<text x="40" y="240">audit log</text><text x="40" y="262" font-size="12" fill-opacity=".7">hash-chained</text>
+<text x="260" y="240">tools</text><text x="260" y="262" font-size="12" fill-opacity=".7">only after a decision</text>
+<text x="480" y="240">human approval</text><text x="480" y="262" font-size="12" fill-opacity=".7">high-impact, tainted</text>
+</g>
+<text x="60" y="318" font-family="IBM Plex Mono, monospace" font-size="13" fill="#161a17" fill-opacity=".75">each decision is logged as one link in a chain</text>
+</svg>
