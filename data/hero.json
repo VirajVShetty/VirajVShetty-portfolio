@@ -1,7 +1,7 @@
 {
   "name": "Viraj Shetty",
   "title": "Data Scientist & Analyst | Credit Risk and Operational Analytics",
-  "summary": "Data scientist and analyst in Dallas, TX. I build Power BI reporting, SQL/ETL workflows and automated model monitoring. I currently work as an Operational Analyst at Apex Informatics, and before that I owned model monitoring and inventory for active credit risk models at Elevate Credit.",
+  "summary": "Data scientist and analyst in Dallas, TX. I build Power BI reporting, SQL/ETL workflows and automated model monitoring. I am currently working as an Operational Analyst at Apex Informatics, and before that I owned model monitoring and inventory for active credit risk models at Elevate Credit.",
   "location": "Dallas, TX",
   "readouts": [
     {
@@ -17,7 +17,7 @@
       "label": "lower delinquent population, Elevate Credit"
     },
     {
-      "value": "10-12",
+      "value": "12",
       "label": "active models owned at Elevate Credit"
     }
   ],

@@ -27,7 +27,8 @@
         "HubSpot CRM",
         "n8n"
       ],
-      "logo": "assets/images/logos/apex-informatics.svg"
+      "logo": "assets/images/logos/apex-informatics.svg",
+      "employmentType": "Contract"
     },
     {
       "company": "Elevate Credit",
@@ -36,7 +37,7 @@
       "start": "August 2023",
       "end": "July 2026",
       "location": "Dallas, TX",
-      "description": "Owned the inventory lifecycle of 10-12 active models, with status updates to internal stakeholders and bank partners within 24 hours of any model change. Coordinated third-party validation against SR-26-2 and OCC-11-12 and facilitated fair lending reviews.",
+      "description": "Owned the inventory lifecycle of 12 active models, with status updates to internal stakeholders and bank partners within 24 hours of any model change. Coordinated third-party validation against SR-26-2 and OCC-11-12 and facilitated fair lending reviews.",
       "highlights": [
         "Automated variable stability (PSI) and performance (AUC, KS, lift) tracking for 10 active models via parameterized Jupyter notebooks and a Snowflake-to-Power BI pipeline, reducing execution time by 95%.",
         "Designed ad-hoc views for charge-off benchmarking, roll-rate analysis and re-parameterization comparisons, driving pre-rollout lift analysis that reduced the delinquent population by 60%.",
